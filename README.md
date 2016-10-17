@@ -1,6 +1,6 @@
 
 # RLongLexTo
-A simple R wrapper function for a Thai word sementation, LexTo (http://www.sansarn.com/lextok /).
+A simple R wrapper function for a Thai word sementation, LexTo (http://www.sansarn.com/lexto/).
 
 RLongLextTo requires rJava and java JDK.
 
