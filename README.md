@@ -1,4 +1,6 @@
 # RLongLexTo
-A simple R wrapper function for LexTo. 
-LexTo is a Thai word segmentation program written by Choochart Haruechaiyasak (http://www.sansarn.com/lexto/)
+A simple R wrapper function for a Thai word sementation, LexTo (http://www.sansarn.com/lextok /).
+
+RLongLextTo requires rJava and java JDK.
+
 
