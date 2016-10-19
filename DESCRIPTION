@@ -1,0 +1,10 @@
+Package: RLongLexTo
+Type: Package
+Title: A simple R wrapper function for LexTo.
+Version: 0.1.0
+Author: Sompob Saralamba
+Maintainer: Sompob Saralamba <sakngoi@hotmail.com>
+Description: An R wrapper function for LexTo. Please visit http://www.sansarn.com/lexto/ for more details about LexTo.
+License: MIT License
+LazyData: TRUE
+
