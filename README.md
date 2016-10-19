@@ -9,7 +9,7 @@ http://wp.me/p1rsA6-qO
 ##Installation
 ```{r}
 library(devtools)
-install_github(RLongLexTo)
+install_github("slphyx/RLongLexTo")
 ```
 
 ##Using RLongLexTo
