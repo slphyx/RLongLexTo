@@ -250,7 +250,13 @@ public class LongLexTo {
 
   public static void main(String[] args) throws IOException {
 
-    LongLexTo tokenizer=new LongLexTo(new File("lexitron.txt"));
+    String inFileName = args[0];
+    String outFileName = args[1];
+    String path2dict = args[2];
+
+    String path2file = new StringBuilder(path2dict).append("/java/lexitron.txt").toString();
+
+    LongLexTo tokenizer=new LongLexTo(new File(path2file));
     File unknownFile=new File("unknown.txt");
     if(unknownFile.exists())
       tokenizer.addDict(unknownFile);
@@ -264,8 +270,6 @@ public class LongLexTo {
     BufferedReader br;
     //FileWriter fw;
 
-    String inFileName = args[0];
-    String outFileName = args[1];
 
     BufferedReader streamReader = new BufferedReader(new InputStreamReader(System.in));
 
