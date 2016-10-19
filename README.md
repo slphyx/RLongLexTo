@@ -6,3 +6,17 @@ RLongLextTo requires rJava and java JDK.
 
 http://wp.me/p1rsA6-qO
 
+##Installation
+```{r}
+library(devtools)
+install_github(RLongLexTo)
+```
+
+##Using RLongLexTo
+```{r}
+library(RLongLexTo)
+Sys.setlocale(locale="Thai")
+RLongLexToC("ทดสอบแบ่งคำภาษาไทย")
+
+
+```
