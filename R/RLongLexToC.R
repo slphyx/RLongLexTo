@@ -1,8 +1,4 @@
-#
-#   Build and Reload Package:  'Ctrl + Shift + B'
-#   Check Package:             'Ctrl + Shift + E'
-#   Test Package:              'Ctrl + Shift + T'
-#
+# ending C--> output as.vector
 RLongLexToC<-function(inputtext,path.dict=NULL){
   writeinput(inputtext)
   inputfilename <- "RLongLexToinput.txt"  # input file

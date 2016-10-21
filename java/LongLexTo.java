@@ -254,7 +254,8 @@ public class LongLexTo {
     String outFileName = args[1];
     String path2dict = args[2];
 
-    String path2file = new StringBuilder(path2dict).append("/java/lexitron.txt").toString();
+    //String path2file = new StringBuilder(path2dict).append("/java/lexitron.txt").toString();
+    String path2file = new StringBuilder(path2dict).toString();
 
     LongLexTo tokenizer=new LongLexTo(new File(path2file));
     File unknownFile=new File("unknown.txt");
