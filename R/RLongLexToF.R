@@ -4,11 +4,11 @@
 #default dictionary file is lexitron.txt
 PATH2DICT<-paste0(system.file(package='RLongLexTo'),"/java/lexitron.txt")
 
-RLongLexToF<-function(inputfilename,outputfilename,path2dict=NULL){
-  if(is.null(path2dict)){
+RLongLexToF<-function(inputfilename,outputfilename,path.dict=NULL){
+  if(is.null(path.dict)){
     J('LongLexTo','main', c(inputfilename,outputfilename,PATH2DICT))
   }
   else{
-    J('LongLexTo','main', c(inputfilename,outputfilename,path2dict))
+    J('LongLexTo','main', c(inputfilename,outputfilename,path.dict))
   }
 }
