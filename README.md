@@ -22,3 +22,6 @@ RLongLexToC("ทดสอบแบ่งคำภาษาไทย")
 [1] "ทดสอบ"   "แบ่ง"    "คำ"      "ภาษาไทย"
 
 ```
+An example of using RLongLexTo to create the Thai wordcloud.
+http://wp.me/p1rsA6-s2
+
