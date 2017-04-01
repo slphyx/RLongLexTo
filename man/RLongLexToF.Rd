@@ -3,9 +3,12 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 %%  ~~function to do ... ~~
+\code{RLongLexToF}
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
+\code{RLongLexToF} does a Thai word segmentation using LexTo (a Thai word segmentation program written by Choochart Haruechaiyasak). Its output will be returned as a file.
+
 }
 \usage{
 RLongLexToF(inputfilename, outputfilename, path.dict = NULL)
@@ -40,6 +43,7 @@ path of the dictionary. If \code{path.dict = NULL} then the default dictionary f
 }
 \author{
 %%  ~~who you are~~
+Sompob Saralamba <saralamba@gmail.com>
 }
 \note{
 %%  ~~further notes~~
@@ -51,22 +55,7 @@ path of the dictionary. If \code{path.dict = NULL} then the default dictionary f
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
 
-## The function is currently defined as
-function (inputfilename, outputfilename, path.dict = NULL)
-{
-    if (is.null(path.dict)) {
-        J("LongLexTo", "main", c(inputfilename, outputfilename,
-            PATH2DICT))
-    }
-    else {
-        J("LongLexTo", "main", c(inputfilename, outputfilename,
-            path.dict))
-    }
-  }
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
