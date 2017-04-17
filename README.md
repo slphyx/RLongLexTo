@@ -1,4 +1,4 @@
-
+[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/slphyx/RLongLexTo)
 # RLongLexTo
 A simple R wrapper function for a Thai word sementation, LexTo (http://www.sansarn.com/lexto/).
 
