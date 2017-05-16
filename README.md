@@ -1,6 +1,6 @@
 [![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/slphyx/RLongLexTo)
 # RLongLexTo
-A simple R wrapper function for a Thai word sementation, LexTo (https://github.com/telember/lexto).
+The R interface to LexTo (https://github.com/telember/lexto).
 
 RLongLextTo requires rJava and java JDK.
 
