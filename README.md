@@ -8,6 +8,7 @@ http://wp.me/p1rsA6-qO
 ##Installation
 ```{r}
 library(devtools)
+options(devtools.install.args = "--no-multiarch")
 install_github("slphyx/RLongLexTo")
 ```
 
