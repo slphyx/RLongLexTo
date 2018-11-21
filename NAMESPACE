@@ -1,3 +1,4 @@
-import("rJava")
+importFrom(rJava,.jpackage)
+importFrom(rJava,J)
 export("RLongLexToC","RLongLexToF")
-#exportPattern("^[[:alpha:]]+")
+
