@@ -7,9 +7,9 @@ http://wp.me/p1rsA6-qO
 
 ##Installation
 ```{r}
+library(rJava)
 library(devtools)
-options(devtools.install.args = "--no-multiarch")
-install_github("slphyx/RLongLexTo")
+install_github("slphyx/RLongLexTo", INSTALL_opts="--no-multiarch")
 ```
 
 ##Using RLongLexTo
