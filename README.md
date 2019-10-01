@@ -1,5 +1,5 @@
 # RLongLexTo
-The R interface to LexTo (https://github.com/telember/lexto).
+An R interface to LexTo (https://github.com/telember/lexto).
 
 RLongLextTo requires rJava and java JDK.
 
