@@ -8,4 +8,5 @@ Description: An R wrapper function for LexTo. Please visit http://www.sansarn.co
 Depends: rJava
 License: MIT License
 LazyData: TRUE
+StagedInstall: no
 
